@@ -1,7 +1,9 @@
-# PokéBonk 輔助中心 · 發佈
+# PokéBonk 輔助中心 · 更新
 
-呢度只放分享用嘅 Windows portable EXE 同已簽署嘅更新資料（`latest.json`），唔放原始碼。
+呢度只放已簽署嘅**差異更新**（`.pbdelta`）同更新清單（`latest.json`），唔放完整 EXE、程式包或原始碼。
 
-- 下載：去 [Releases](https://github.com/JohnnyWCYin/Pokebonk-releases/releases/latest) 下載最新嘅 `PokeBonkStudio-<版本>-portable.exe`。
-- 自動更新：1.0.55 或之後嘅 EXE 開機時會檢查呢度嘅最新版本，有新版就喺頂部顯示「更新並重開」。下載之後會核對 Ed25519 簽署同 SHA-256，兩樣都啱先會安裝。
+- 差異更新只適用於已經安裝咗**上一個指定版本**嘅輔助中心：程式開機時會檢查呢度，有新版就喺頂部顯示「更新並重開」。
+- 下載之後會核對 Ed25519 簽署同 SHA-256，兩樣都啱先會套用。
+- 「全域設定 → 更新渠道」：**穩定**讀最新正式 Release；**測試**讀 `channel-beta`。
+- 未安裝或者版本太舊，差異更新用唔到：請向發佈者私下索取安裝檔。
 - 登入同帳號資料只保存喺你自己部電腦，唔會上載。
